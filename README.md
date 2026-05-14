@@ -27,7 +27,7 @@ Dự án này cung cấp một giải pháp "Bridge" (Cầu nối) mạnh mẽ, 
 flowchart TD
     A[Người dùng Zalo Group] --> B[Listener.js - zca-js]
     B -->|POST /zalo-chat| C[FastAPI Bridge]
-    C --> D[Chatbot API - Anh Senni]
+    C --> D[Chatbot API]
     D --> C
     C --> E[Zalo Send API]
     E --> A
