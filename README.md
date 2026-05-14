@@ -1,4 +1,4 @@
-# Zalo AI Bridge - Hệ thống tích hợp AI Chatbot vào Zalo Group
+# Zalo AI  - Hệ thống tích hợp AI Chatbot vào Zalo Group
 
 Dự án này cung cấp một giải pháp "Bridge" (Cầu nối) mạnh mẽ, cho phép tích hợp bất kỳ AI Chatbot nào vào Zalo Group thông qua tài khoản cá nhân (đóng vai trò listener) và Zalo Send API (đóng vai trò sender).
 
