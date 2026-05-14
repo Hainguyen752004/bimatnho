@@ -1,8 +1,10 @@
 # Zalo AI Bridge - Hệ thống tích hợp AI Chatbot vào Zalo Group
 
-Dự án này cung cấp một giải pháp "Bridge" (Cầu nối) mạnh mẽ, cho phép tích hợp bất kỳ AI Chatbot nào vào Zalo Group thông qua tài khoản cá nhân (để lắng nghe) và Zalo Send API (để trả lời).
+Dự án này cung cấp một giải pháp "Bridge" (Cầu nối) mạnh mẽ, cho phép tích hợp bất kỳ AI Chatbot nào vào Zalo Group thông qua tài khoản cá nhân (đóng vai trò listener) và Zalo Send API (đóng vai trò sender).
 
-## 🚀 Tính năng nổi bật
+## 🛠️ Công nghệ sử dụng
+- **Zalo Listener**: Sử dụng thư viện [zca-js](https://github.com/mra-9/zca-js) - Một bộ công cụ mã nguồn mở tuyệt vời để tương tác với Zalo.
+- **FastAPI Bridge**: Xây dựng bằng Python để điều phối và quản lý phiên (session) người dùng.
 
 - **Personalized Memory**: Mỗi người dùng trong group có một bộ nhớ (session) riêng biệt dựa trên `group_id` và `user_id`.
 - **Hybrid Architecture**: Sự kết hợp hoàn hảo giữa **Node.js** (hiệu năng cao cho listener) và **Python/FastAPI** (linh hoạt cho xử lý logic/AI).
@@ -57,6 +59,9 @@ ZALO_SEND_API=http://your-zalo-gateway.com/send-message
 GROUP_ID=target_group_id
 BRIDGE_API_KEY=SECRET_KEY_123
 ```
+
+> [!IMPORTANT]  
+> **Lưu ý về Chatbot API (Bộ não AI):** Dự án này chỉ cung cấp phần "Cầu nối" (Bridge). Bạn cần phải tự xây dựng hoặc có sẵn một Chatbot API của riêng mình (ví dụ: GPT-4, Gemini, hoặc bot tự học) để xử lý câu hỏi và trả về câu trả lời.
 
 ## 🏃 Cách vận hành
 
