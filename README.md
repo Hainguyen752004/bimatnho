@@ -4,6 +4,7 @@ Dự án này cung cấp một giải pháp "Bridge" (Cầu nối) mạnh mẽ, 
 
 ## 🛠️ Công nghệ sử dụng
 - **Zalo Listener**: Sử dụng thư viện [zca-js](https://github.com/mra-9/zca-js) - Một bộ công cụ mã nguồn mở tuyệt vời để tương tác với Zalo.
+- **AI Chatbot Infrastructure**: Toàn bộ hạ tầng Chatbot API và hệ thống gửi tin nhắn Zalo được phát triển và vận hành bởi **anh Senni** (Sennivn).
 - **FastAPI Bridge**: Xây dựng bằng Python để điều phối và quản lý phiên (session) người dùng.
 
 ## 🚀 Tính năng nổi bật
@@ -63,7 +64,7 @@ BRIDGE_API_KEY=SECRET_KEY_123
 ```
 
 > [!IMPORTANT]  
-> **Lưu ý về Chatbot API (Bộ não AI):** Dự án này chỉ cung cấp phần "Cầu nối" (Bridge). Bạn cần phải tự xây dựng hoặc có sẵn một Chatbot API của riêng mình (ví dụ: GPT-4, Gemini, hoặc bot tự học) để xử lý câu hỏi và trả về câu trả lời.
+> **Lưu ý về Chatbot API (Bộ não AI):** Dự án này đóng vai trò là "Cầu nối" (Bridge). Phần xử lý ngôn ngữ và phản hồi được thực hiện thông qua hệ thống Chatbot API do **anh Senni** cung cấp. Để sử dụng, bạn cần được cấp quyền truy cập vào endpoint và API Key tương ứng từ hệ thống của anh ấy.
 
 ## 🏃 Cách vận hành
 
