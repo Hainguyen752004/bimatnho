@@ -6,6 +6,8 @@ Dự án này cung cấp một giải pháp "Bridge" (Cầu nối) mạnh mẽ, 
 - **Zalo Listener**: Sử dụng thư viện [zca-js](https://github.com/mra-9/zca-js) - Một bộ công cụ mã nguồn mở tuyệt vời để tương tác với Zalo.
 - **FastAPI Bridge**: Xây dựng bằng Python để điều phối và quản lý phiên (session) người dùng.
 
+## 🚀 Tính năng nổi bật
+
 - **Personalized Memory**: Mỗi người dùng trong group có một bộ nhớ (session) riêng biệt dựa trên `group_id` và `user_id`.
 - **Hybrid Architecture**: Sự kết hợp hoàn hảo giữa **Node.js** (hiệu năng cao cho listener) và **Python/FastAPI** (linh hoạt cho xử lý logic/AI).
 - **Smart Filtering**: 
