@@ -65,8 +65,7 @@ BRIDGE_API_KEY=" "
 ```
 
 > [!IMPORTANT]  
-> **Lưu ý về Chatbot API:** Dự án này đóng vai trò là "Cầu nối" (Bridge). Phần xử lý ngôn ngữ và phản hồi được thực hiện thông qua hệ thống Chatbot API do anh Senni cung cấp. Bạn cần được cấp quyền truy cập từ hệ thống của anh ấy để sử dụng.
-
+> **Lưu ý về Chatbot API:** Dự án này đóng vai trò là "Cầu nối" (Bridge). Phần xử lý ngôn ngữ và phản hồi được thực hiện thông qua hệ thống Chatbot API do chính bản thân người dùng tự build.Phần zalo bot tham khảo thư viện được nêu trên để build nhé 
 ## Cách vận hành
 
 Hệ thống cần chạy song song 2 thành phần:
