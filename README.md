@@ -60,8 +60,8 @@ Tạo file .env và điền đầy đủ thông tin sau:
 CHATBOT_API=http://your-chatbot-api.com/chat
 CHATBOT_API_KEY=your_api_key
 ZALO_SEND_API=http://your-zalo-gateway.com/send-message
-GROUP_ID=8378571720125437839
-BRIDGE_API_KEY=SECRET_KEY_123
+GROUP_ID= " " 
+BRIDGE_API_KEY=" "
 ```
 
 > [!IMPORTANT]  
@@ -89,5 +89,4 @@ Vào Group đã cấu hình, gõ lệnh theo cú pháp:
 Ví dụ: /ai Chào bot, hôm nay có bao nhiêu vi phạm?
 
 ---
-**Author:** Chí Hải  
-**Repo:** [Hainguyen752004/bimatnho](https://github.com/Hainguyen752004/bimatnho)
+**Author:** Chí Hải  aka zin đẹp trai
