@@ -89,5 +89,4 @@ Vào Group đã cấu hình, gõ lệnh theo cú pháp:
 Ví dụ: /ai Chào bot, hôm nay có bao nhiêu vi phạm?
 
 ---
-**Author:** Chí Hải  
-**Repo:** [Hainguyen752004/bimatnho](https://github.com/Hainguyen752004/bimatnho)
+**Author:** Chí Hải aka zin đẹp trai
